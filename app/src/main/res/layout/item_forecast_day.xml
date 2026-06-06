@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/card_weather"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Day name -->
+    <TextView
+        android:id="@+id/tvForecastDay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.4"
+        android:fontFamily="@font/bungee"
+        android:text="Monday"
+        android:textColor="#1A3A6B"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!-- Weather emoji icon -->
+    <TextView
+        android:id="@+id/tvForecastIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:text="☀️"
+        android:textSize="24sp" />
+
+    <!-- Condition description -->
+    <TextView
+        android:id="@+id/tvForecastDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.8"
+        android:text="Clear Sky"
+        android:textColor="#3E5E82"
+        android:textSize="12sp" />
+
+    <!-- Min / Max -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvForecastMinMax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee"
+            android:text="↓--°  /  ↑--°"
+            android:textColor="#1A3A6B"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvForecastPop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="🌧️ 0%"
+            android:textColor="#5AAEFF"
+            android:textSize="11sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

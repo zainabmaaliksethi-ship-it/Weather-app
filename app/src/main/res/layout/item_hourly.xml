@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_hourly"
+    android:gravity="center"
+    android:layout_marginEnd="8dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvHourTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12 AM"
+        android:textColor="#5A7EA8"
+        android:textSize="11sp"
+        android:fontFamily="@font/bungee" />
+
+    <TextView
+        android:id="@+id/tvHourIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:text="☀️"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvHourTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--°C"
+        android:textColor="#1A3A6B"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bungee" />
+
+    <TextView
+        android:id="@+id/tvHourPop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="0%"
+        android:textColor="#5AAEFF"
+        android:textSize="10sp" />
+
+</LinearLayout>

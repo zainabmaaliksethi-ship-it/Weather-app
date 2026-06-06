@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_location_item"
+    android:layout_marginBottom="8dp"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:clickable="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/tvSearchCity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="🌍 City Name"
+        android:textColor="#1A3A6B"
+        android:textSize="14sp"
+        android:fontFamily="@font/bungee" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ Add"
+        android:textColor="#254980"
+        android:textSize="12sp"
+        android:fontFamily="@font/bungee" />
+
+</LinearLayout>
